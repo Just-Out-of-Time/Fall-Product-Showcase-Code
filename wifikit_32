@@ -10,7 +10,7 @@
 #define SMTP_PORT 465 //or 587
 #define AUTHOR_EMAIL "temperaturereadingdevice@gmail.com"
 #define AUTHOR_PASSWORD ""
-#define RECIPIENT_EMAIL "6204417382@vtext.com"
+#define RECIPIENT_EMAIL "@vtext.com"
 
 const char ssid[]     = "WSU Guest"; 
 const char password[] = ""; 
