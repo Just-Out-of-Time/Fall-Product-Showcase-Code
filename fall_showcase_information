@@ -1,0 +1,24 @@
+The main goal first semester was to get some hardware and make a working prototype of what our end goal was. 
+
+Our end goal was to have an arduino with WiFi capabilities connected with some kind of temperature reading sensor that can send a notification 
+(text message) to someone that needs to be notified. 
+
+Once we had this hardware together the software side of things was to monitor the temperature being read, waiting for it to get out of range.
+
+For the showcase we selected 100 degrees to be out of range. 
+
+Once this limit was reached the arduino would then attempt to connect to WiFi.
+
+After it connected we began communicating to an smtp session. 
+
+From here we have a gmail account waiting. 
+
+In the code you can see the address of the account.
+
+Also from the code you can automatically send an email or in our case a text message. 
+
+Using "phone-number"@"recipient-carrier".com you can send a text message to any phone using a gmail account. 
+
+This completed our goal for the first semester. 
+
+We can successfully monitor temperature and send a notification once the temperature become out of range. 
